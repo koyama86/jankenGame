@@ -1,23 +1,31 @@
+
 public class Main {
 
+    public static void main(String[] args) {
 
-   public static void main(String[] args) {
+        Player user = new Player("ユーザ");
 
-       Player user = new Player("ユーザ");
+        Player com = new Player("CPU");
 
-       Player com = new Player("CPU");
+        //入力指示表示
+        System.out.println("1.グー");
 
+        System.out.println("2.チョキ");
 
-       //入力指示表示
+        System.out.println("3.パー");
 
-       System.out.println("1.グー");
+        System.out.println("あなたの手を選択してください。>");
 
-       System.out.println("2.チョキ");
+        //test1
+        System.out.println(user.getPlayerName());
 
-       System.out.println("3.パー");
+        System.out.println(com.getPlayerName());
 
-       System.out.println("あなたの手を選択してください。>");
+//test2
+        user.setPlayerName("testユーザー");
 
-   }
+        System.out.println(user.getPlayerName());
+
+    }
 
 }
