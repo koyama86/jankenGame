@@ -75,6 +75,9 @@ public class Main {
             return;
 
         }
+              // comの手を生成
+
+        com.createRandomHand();
 
     }
 
