@@ -4,6 +4,7 @@ public class Player {
 
     private String playerName;
 
+
     private Hand hand;
 
     public Player(String playerName) {
@@ -71,3 +72,4 @@ public class Player {
     }
 
 }
+
